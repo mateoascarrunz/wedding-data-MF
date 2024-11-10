@@ -19,7 +19,7 @@ const credentialPath = JSON.parse(process.env.GOOGLE_CREDENTIALS_JSON);
 const app = express();
 
 app.use(cors({
-  origin: "https://boda-friedl-martina.vercel.app", // Reemplaza con el dominio de tu frontend
+  origin: "https://martina-friedl.com", // Reemplaza con el dominio de tu frontend
   methods: ["GET", "POST"],
 }));
 app.use(express.json());
